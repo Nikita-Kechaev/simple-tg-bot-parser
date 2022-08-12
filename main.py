@@ -57,6 +57,7 @@ def wake_up(update, context):
         chat_id=chat.id,
         text='Спасибо, что включили меня!',
     )
+    print(context.data)
 
 
 def main():
